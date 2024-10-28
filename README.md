@@ -58,7 +58,7 @@ pip install neat-python  # If using NEAT for AI
 
 4. **Run the Game**:
     ```bash
-    python flappy_bird_ai.py
+    python app.py
     ```
 
 ## Game Mechanics
@@ -79,7 +79,7 @@ The AI in this game uses [NEAT (NeuroEvolution of Augmenting Topologies)](https:
 
 ## Usage
 
-1. **Running the Game**: Use `python flappy_bird_ai.py` to start the game. The AI will control the bird automatically.
+1. **Running the Game**: Use `python app.py` to start the game. The AI will control the bird automatically.
 2. **Adjusting Parameters**: If using NEAT, you can customize parameters in the `config-feedforward.txt` file to adjust AI learning rates, population size, etc.
 3. **Viewing AI Progress**: As generations progress, observe how the AI learns to improve its survival time.
 
